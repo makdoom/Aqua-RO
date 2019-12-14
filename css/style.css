@@ -291,32 +291,36 @@
     font-size: 20px;
 }
 .main-div{
-    border: 1px solid black;
-    /* background-color: #fa919f; */
     margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b1e9fa;
+    /* border: 1px solid black; */
 }
-.services{
-    height: auto;
-    /* border: 3px solid blue; */
+#service{
+    margin: 20px 20px;
+    /* font-size: 30px; */
+    
     
 }
 .area{
-    /* margin-left: 4px; */
     height: 350px;
     overflow: auto;
-    width: 175px;
-    display: inline-block;
+     /* border: 1px solid black; */
+   
 }
 .area ul li{
+    
     margin: 0px;
     padding: 0px;
+    padding-left: 1px;
     text-decoration: none;
-    overflow: auto;
+    /* border: 1px solid black; */
+    display: inline-block;
+    
 }
 .area ul li a{
     color: black;
     padding: 1px;
-    font-size: 13px;
-    
+    font-size: 12px;   
     
 }
