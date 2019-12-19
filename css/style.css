@@ -324,3 +324,8 @@
     font-size: 12px;   
     
 }
+.footer{
+    background-color: deepskyblue;
+    border: 1px solid black;
+    height: auto;
+}
