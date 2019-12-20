@@ -17,7 +17,7 @@
 .social{
     margin: 5px;
     font-size: 17px;
-     color: white;
+    color: white;
 }
 .social:hover{
     color: white;
@@ -325,7 +325,120 @@
     
 }
 .footer{
-    background-color: deepskyblue;
-    border: 1px solid black;
+    background-color: black;
     height: auto;
+    color: white;
+    
 }
+#form{
+    position: relative;
+}
+.btnstyle{
+    width: 150px;
+    height: 35px;
+    color: black;
+    font-weight: 1200px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    top: 90%;
+    left:23%;
+    position: absolute;
+    background: linear-gradient(to right,#00f2e6  ,#00de59,#00f2e6 );
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+.btnstyle:hover{
+    background-position: right center;
+}
+.form-control{
+    width: 250px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: #fff;
+    font-size: 16px;
+}
+.bdr{
+        border: 1px solid white;
+}
+.footer .contact {
+    font-size: 18px;
+    font-family: "montserrat","sans-serif";;
+}
+
+.social{
+    /* margin-top: 40px;
+    margin-right: 18px; */
+    margin-right: 19px;
+    /* font-size: 20px; */
+    text-align: center;
+    color: white;
+}
+
+.links ul{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 1px 3px rgba(116, 113, 113, 0.747);
+    margin-right: 20px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+.links li a{
+    color: black;
+    font-size: 23px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+.links li:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0%;
+    display: inline-block;
+    background-color: #3b5998;
+    position: absolute;
+    transition: 0.3s;
+}
+.links li:nth-child(1):before{
+    background-color: #3ad88e;
+}
+.links li:nth-child(2):before{
+    background-color: #3b5998;
+}
+.links li:nth-child(3):before{
+    background-color: #55acee;
+}
+.links li:nth-child(4):before{
+    background-color: #ff0633;
+}
+.links li:nth-child(5):before{
+    background-color: #c03d3d;
+}
+.links li:hover::before{
+    top: 0%;
+}
+.links li a:hover{
+    color: white;
+}
+.bfooter{
+   color: white;
+   text-align: center;
+}
+
