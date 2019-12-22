@@ -21,16 +21,28 @@
   
   <!-- jQuery link -->
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript">
+  $(window).on('scroll', function(){
+    if($(window).scrollTop()){
+      $('nav').addClass('black');
+    }
+    else{
+      $('nav').removeClass('black');
+    }
+  })
+  </script>
 </head>
 <body>
+
   <!-- header -->
- 
+
   <!-- log and navigation -->
+<header>
   <div class="container">
     <div class="row">
       
       <div class="col-sm-5 logo" >
-      <img class="img-thubmnail" src="img/logo.png" alt="logo" height="150px" width="250px"></div>
+      <img class="img-thubmnail" src="img/aqua-logo-png-1.png" alt="logo" height="90px" width="150px"></div>
       
 
       <div class="col-sm-7 menu" >
@@ -55,11 +67,13 @@
       </div>
     </div>
   </div>
+</header>
+
   <!-- end of header -->
   <!-- slider -->
-  <div class="container-fluid">
+  <div class="container-fluid imgslide">
     <div class="row">
-      <!-- <img src="img/slide2.jpg" class="img-responsive" width="100%"> -->
+     
       <div id="slider" class="carousel slide" data-ride="carousel" data-interval="2000">
         <!-- slider indicator -->
           <ol class="carousel-indicators">
@@ -105,7 +119,7 @@
   <!-- end of introduction -->
 
   <!-- award section -->
-  <div class="container">
+  <div class="container" >
     <div class="row">
       <div class="col-sm-4 award">
         <h3>Best serivece Award</h3>
@@ -2017,18 +2031,19 @@
 
 
 <!-- footer -->
-  <div class="container-fluid footer">
+  <div class="container-fluid footer ">
     <!-- Top Footer -->
     <div class="container">
       <div class="row">
-        <div class="col-sm-3" style="border: 1px solid black;">
+        <div class="col-sm-3 address ">
           <!-- webiste area -->
-          <h2>RO Solution</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid incidunt iusto at adipisci in obcaecati ducimus! Placeat recusandae sint ut, quos minima nam repellat dicta. Officiis nobis distinctio fugit porro?</p>
+          <h3>RO Solution</h3>
+          <p id="add">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid incidunt iusto at adipisci in obcaecati ducimus! Placeat recusandae sint ut, quos minima nam repellat dicta. Officiis nobis distinctio fugit porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, voluptas?</p>
+          <input type="submit" id="btn" value="Read More" class="contact-form-btn">
         </div>
-        <div class="col-sm-2 center-text srv " style=" border: 1px solid white;">
+        <div class="col-sm-2 svr">
           <!-- services area -->
-          <h2>Services</h2>
+          <h3>Services</h3>
           <ul>
             <li>AMC</li>
             <li>Service</li>
@@ -2042,9 +2057,9 @@
             <li>Online Payment</li>
           </ul>
         </div>
-        <div class="col-sm-3 prod" style="border: 1px solid black;">
+        <div class="col-sm-3 prod" style="border: 1px solid b;">
           <!-- Product area -->
-          <h2>Products</h2>
+          <h3>Products</h3>
           <ul>
             <li>Aqua Fresh RO</li>
             <li>Aqua Grand RO</li>
@@ -2055,27 +2070,31 @@
           </ul>
 
         </div>
-        <div class="col-sm-4 "style="border: 1px solid white">
+        <div class="col-sm-4" >
           <!-- Contact Area -->
-          
-          <div class="container">
-            <h3>Get In Touch</h3>
-            <div class="row100">
-
-            </div>
+            <div class="contact-section">
+              <h3>Get In Touch</h3>
+              <div class="borderline"></div>
+              <form action="#" class="contact-form">
+                <input class="contact-form-text" type="text" name="" placeholder="Full Name">
+                <input class="contact-form-text" type="email" name="" placeholder="Email">
+                <input class="contact-form-text" type="text" name="" placeholder="mobile">
+                <textarea class="contact-form-text" placeholder="Message"></textarea>
+                <input type="submit" value="Submit" class="contact-form-btn">
+               </div>
           </div>
         </div>
-      </div>
+      
       <!-- end of top footer -->
 
       <!-- middle footer -->
-      <br><br>
+      <br>
       <div class="continer-fluid footer">
         <div class="row">
           <div class="col-sm-4">
             <div class="addr">
               <!-- address area -->
-              <h2>Address</h2>
+              <h3>Address</h3>
               <p>Room No- 14, Building no- 12, B Type Building, Opposite Vashi Plaza, Mumbai - 400703.</p>
             </div>
             <div class="contact">
@@ -2085,13 +2104,13 @@
                 <br><br>
                 <i class="fa fa-envelope" >&nbsp; makshaikh99@gmail.com</i><br>
                 <i class="fa fa-globe">&nbsp; www.rosolution.com</i>
- 
+
             </div>
 
           </div>
           <div class="col-sm-5 ">
             <!-- social links area -->
-            <h2>Social </h2>
+            <h3>Social </h3>
             <div class="links">
               <ul>
                 <li><a href="#"class =""><i class="fa fa-whatsapp" ></i></a></li>
@@ -2104,9 +2123,9 @@
           </div>
           <div class="col-sm-3 ">
             <!-- payment area -->
-            <h2 id="pay">Pay Now </h2><br>
+            <h3 id="pay">Pay Now </h3><br>
             <img id="visa" src="img/payment/pay.png" alt="visa"><br>
-            <img id="visa" src="img/payment/paytm.png" alt="paytm"><br>
+            <img id="visa" src="img/payment/paytm.png" alt="visa"><br>
 
           </div>
         </div>
@@ -2134,7 +2153,7 @@
         </script>
 <!-- card slider -->
  <script src="js/swiper.min.js"></script>
- <!-- For Card Slider -->
+  <!-- For Card Slider -->
   <script>
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
@@ -2142,10 +2161,10 @@
       centeredSlides: true,
       slidesPerView: 'auto',
       coverflowEffect: {
-        rotate: 50,
+        rotate: 10,
         stretch: 0,
-        depth: 100,
-        modifier: 1, 
+        depth: 500,
+        modifier: 1,
         slideShadows : true,
       },
       pagination: {
@@ -2153,6 +2172,6 @@
       },
     });
   </script>
-  <h1>my name is makdoom shaikh</h1>
+  
 </body>
 </html>
