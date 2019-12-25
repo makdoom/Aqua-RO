@@ -6,48 +6,47 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- 3D swipper -->
-  <link rel="stylesheet" href="css/swiper.min.css">
+  <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
   <!-- Custom css -->
   <link rel="stylesheet" href="css/style.css">
 <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <!-- Sticky navbar -->
-  <!-- <script src="js/sticky.js"></script> -->
+  <script src="js/sticky.js"></script>
   <link rel="stylesheet" href="font/flaticon.css">
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
   <title>Aqua</title>
   
 </head>
 <body>
   <!-- header -->
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="img/aqua-logo-png-1.png" alt="">
-      </div>
-      
-      <div class="navb">
-        <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-          
-        <input class="embtn" type="submit" value="Complaint">
-        <input class="embtn" type="submit" value="Online Enquiry">
-      </div>
-    </nav>
-  </header>
-  <section class="imgSlider">
-    <div class="carousel slide " data-ride="carousel" data-interval="2000" data-pause="false" id="imgsldr">
+ <header> 
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo">RO SOULTION</label>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">services</a></li>
+      <li><a href="#">contact</a></li>
+      <li><a href="#">about</a></li>
+    </ul>
+  </nav>
+ </header>
+  
+  <section id="myslider" class="imgSlider">
+    <div class="carousel slide " data-ride="carousel" data-interval="3000" data-pause="false" id="imgsldr">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/card1.jpg" class="img-responsive" alt="">
@@ -64,7 +63,7 @@
         <a href="#imgsldr" class="carousel-control-prev" data-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </a> -->
-        <ol class="carousel-indicators">
+         <ol class="carousel-indicators ind">
           <li data-target="#imgsldr" data-slide-to="0" class="active"></li>
           <li data-target="#imgsldr" data-slide-to="1"></li>
           <li data-target="#imgsldr" data-slide-to="2"></li>
@@ -79,107 +78,169 @@
   <!-- introduction  -->
   <section id="introduction">
     <div class="container">
-        <h1>WELCOME</h1>
+        <h1 class="mt-4 mb-4">WELCOME</h1>
         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quae rerum ratione laboriosam similique aliquam culpa quia qui ea ipsa. Temporibus maiores repudiandae sit labore ab, suscipit ducimus amet harum expedita sapiente! Tempore facilis velit iste, libero explicabo aliquam reprehenderit quidem ratione ut, minima fugiat eius, necessitatibus pariatur aut excepturi nobis. Corporis repudiandae quis, tempora neque temporibus at officiis expedita eaque quisquam, recusandae iure pariatur, ex fugit deleniti voluptas ducimus quo totam commodi laboriosam quam. Labore, minus ea amet incidunt natus, voluptate adipisci mollitia aut doloremque nulla corrupti sit reiciendis provident iure repellat pariatur velit facere. Impedit perspiciatis distinctio amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat, debitis incidunt minima omnis saepe hic voluptate delectus ipsa deleniti odio voluptatem dolore quisquam est ad distinctio qui doloremque illum necessitatibus fugit dolor ducimus! Placeat esse excepturi, animi explicabo, cum atque vel saepe quam commodi, eaque repellendus est voluptatem. Delectus, quibusdam earum, corrupti reprehenderit, amet suscipit eos maiores facilis rem aut magnam unde doloremque quidem. Eum consequatur omnis ducimus facilis alias totam, eligendi rerum quis sed illum molestias animi illo quisquam! Eveniet minus omnis, adipisci beatae pariatur deserunt velit praesentium, tempora alias, ea in architecto earum unde. Quia, vitae consectetur!</p>
     </div>
+
   </section>
   <!-- end of introduction -->
 
   <!-- award section -->
-  <div class="container" >
-    <div class="row">
-      <div class="col-sm-4 award">
-        <span class="flaticon-trophy"></span>
-        <h3 class="text-justify">Best serivece Award</h3>
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+  <section>
+    <div class="head">
+      <h1 class="text-center mt-4 mb-4">Achievements</h1>
+    </div>
+      <div class="container" >
+      <div class="row">
+        <div class="col-sm-4 award">
+          <span class="flaticon-trophy"></span>
+          <h3 class="text-center">Best serivece Award</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+        </div>
+        <div class="col-sm-4 award">
+          <span class="flaticon-quality"></span>
+          <h3 class="text-center">Best Sales Award</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+        </div>
+        <div class="col-sm-4 award">
+          <span class="flaticon-certificate"></span>
+          <h3 class="text-center">ISO certified</h3 class="text-justify">
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+        </div>
       </div>
-      <div class="col-sm-4 award">
-        <span class="flaticon-quality"></span>
-        <h3 class="text-justify">Best Sales Award</h3>
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+
+      <div class="row award2"">
+        <div class="col-sm-4 award">
+          <span class="flaticon-repairing-service"></span>
+          <h3 class="text-center">Same Day Service</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+        </div>
+        <div class="col-sm-4 award">
+          <span class="flaticon-save-money"></span>
+          <h3 class="text-justify">Costy Effectivc</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+        </div>
+        <div class="col-sm-4 award">
+          <span class="flaticon-like"></span>
+          <h3 class="text-center">Use Genuine Parts</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+        </div>
       </div>
-      <div class="col-sm-4 award">
-        <span class="flaticon-certificate"></span>
-        <h3 class="text-justify">ISO certified</h3 class="text-justify">
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+    </div>
+  </section>
+  <!-- end of award section -->
+
+  <!-- Card section -->
+  <section class="products">
+    <div class="head">
+      <h1>Products</h1>
+    </div>
+    <div class="product-container">
+    <div class="pcard">
+      <input type="checkbox" name="" id="">
+      <div class="toggle">+</div>
+      <div class="imgbox">
+        <img src="img/cs3.jpg" alt="" height=" 400px" width="300px";>
+      </div>
+      <div class="detail">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis iure doloribus autem tempora esse recusandae! Fugiat, necessitatibus inventore porro architecto esse aspernatur deserunt enim dicta totam, non vel mollitia?
+          <br>
+          <a href="#"><button type="button" class="read">Read More</button></a>
+        </p>
+        
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-4 award">
-        <span class="flaticon-repairing-service"></span>
-        <h3 class="text-justify">Same Day Service</h3>
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+    <div class="pcard">
+      <input type="checkbox" name="" id="">
+      <div class="toggle">+</div>
+      <div class="imgbox">
+        <img src="img/cs5.jpg" alt="" height=" 400px" width="300px"; >
       </div>
-      <div class="col-sm-4 award">
-        <span class="flaticon-save-money"></span>
-        <h3 class="text-justify">Costy Effectivc</h3>
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+      <div class="detail">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis iure doloribus autem tempora esse recusandae! Fugiat, necessitatibus inventore porro architecto esse aspernatur deserunt enim dicta totam, non vel mollitia?
+          <br>
+          <a href="#"><button type="button" class="read">Read More</button></a>
+        </p>
       </div>
-      <div class="col-sm-4 award">
-        <span class="flaticon-like"></span>
-        <h3 class="text-justify">Use Genuine Parts</h3>
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit ea ipsum ratione molestiae atque iusto tempora natus. Corporis, exercitationem.</p>
+    </div>
+
+    <div class="pcard">
+      <input type="checkbox" name="" id="">
+      <div class="toggle">+</div>
+      <div class="imgbox">
+        <img src="img/cs1.jpg" alt="" height=" 400px" width="300px";>
+      </div>
+      <div class="detail">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam omnis iure doloribus autem tempora esse recusandae! Fugiat, necessitatibus inventore porro architecto esse aspernatur deserunt enim dicta totam, non vel mollitia?
+          <br>
+          <a href="#"><button type="button" class="read">Read More</button></a>
+        </p>
       </div>
     </div>
   </div>
-  <!-- end of award section -->
-  <!-- Card section -->
+  </section>
+  <!-- <section class="cards">
+      <div class="container">
+        <div class="row justify-content-center cards">
+          <div class="col md 4">
+              <div class="bdcards ">
+                <div class="image">
+                  <img src="img/card1.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="title text-center">
+                  <h3>Domestic Products</h3>
+                </div>
+                <div class="des text-center">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-primary button">Read more..</button>
+                </div>
+              </div>
+          </div>
 
-    <div class="container">
-      <div class="row justify-content-center cards">
-        <div class="col md 4">
-
+          <div class="col md 4">
             <div class="bdcards ">
-              <div class="image">
-                <img src="img/card1.jpg" alt="" class="img-responsive">
+                <div class="image">
+                  <img src="img/card1.jpg" alt="" class="img-responsive" >
+                </div>
+                <div class="title text-center">
+                  <h3>Domestic Products</h3>
+                </div>
+                <div class="des text-center">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-primary button">Read more..</button>
+                </div>
               </div>
-              <div class="title text-center">
-                <h3>Domestic Products</h3>
+          </div>
+          <div class="col md 4">
+            <div class="bdcards ">
+                <div class="image">
+                  <img src="img/card1.jpg" alt="" class="img-responsive" >
+                </div>
+                <div class="title text-center">
+                  <h3>Domestic Products</h3>
+                </div>
+                <div class="des text-center">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-primary button">Read more..</button>
+                </div>
               </div>
-              <div class="des text-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
-              </div>
-              <div class="text-center">
-                <button class="btn btn-primary button">Read more..</button>
-              </div>
-            </div>
-        </div>
-
-        <div class="col md 4">
-          <div class="bdcards ">
-              <div class="image">
-                <img src="img/card1.jpg" alt="" class="img-responsive" >
-              </div>
-              <div class="title text-center">
-                <h3>Domestic Products</h3>
-              </div>
-              <div class="des text-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
-              </div>
-              <div class="text-center">
-                <button class="btn btn-primary button">Read more..</button>
-              </div>
-            </div>
-        </div>
-        <div class="col md 4">
-          <div class="bdcards ">
-              <div class="image">
-                <img src="img/card1.jpg" alt="" class="img-responsive" >
-              </div>
-              <div class="title text-center">
-                <h3>Domestic Products</h3>
-              </div>
-              <div class="des text-center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
-              </div>
-              <div class="text-center">
-                <button class="btn btn-primary button">Read more..</button>
-              </div>
-            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section> -->
   <!-- end of card section -->
 <!-- counter section -->
   <div class="container-fluid gradient ">
