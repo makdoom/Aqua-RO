@@ -4,25 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <!-- 3D swipper -->
-  <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+  <link rel="stylesheet" href="css/swiper.min.css">
   <!-- Custom css -->
   <link rel="stylesheet" href="css/style.css">
 <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <!-- Sticky navbar -->
   <script src="js/sticky.js"></script>
-  <link rel="stylesheet" href="font/flaticon.css">
-  <script src="https://kit.fontawesome.com/yourcode.js"></script>
+  <!-- Flat icon fonts -->
+  <link rel="stylesheet" href="css/icons/font/flaticon.css">
+  
   <title>Aqua</title>
   
 </head>
@@ -44,7 +49,9 @@
     </ul>
   </nav>
  </header>
-  
+  <!-- end of header -->
+
+  <!-- Slider -->
   <section id="myslider" class="imgSlider">
     <div class="carousel slide " data-ride="carousel" data-interval="3000" data-pause="false" id="imgsldr">
       <div class="carousel-inner">
@@ -72,8 +79,7 @@
       </div>
     </div>
   </section>
- 
-  <!-- end o slider -->
+  <!-- end og slider -->
   
   <!-- introduction  -->
   <section id="introduction">
@@ -85,7 +91,7 @@
   </section>
   <!-- end of introduction -->
 
-  <!-- award section -->
+  <!-- achievements section -->
   <section>
     <div class="head">
       <h1 class="text-center mt-4 mb-4">Achievements</h1>
@@ -128,7 +134,7 @@
       </div>
     </div>
   </section>
-  <!-- end of award section -->
+  <!-- end of achievements section -->
 
   <!-- Card section -->
   <section class="products">
@@ -186,108 +192,118 @@
     </div>
   </div>
   </section>
-  <!-- <section class="cards">
-      <div class="container">
-        <div class="row justify-content-center cards">
-          <div class="col md 4">
-              <div class="bdcards ">
-                <div class="image">
-                  <img src="img/card1.jpg" alt="" class="img-responsive">
-                </div>
-                <div class="title text-center">
-                  <h3>Domestic Products</h3>
-                </div>
-                <div class="des text-center">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
-                </div>
-                <div class="text-center">
-                  <button class="btn btn-primary button">Read more..</button>
-                </div>
-              </div>
-          </div>
-
-          <div class="col md 4">
-            <div class="bdcards ">
-                <div class="image">
-                  <img src="img/card1.jpg" alt="" class="img-responsive" >
-                </div>
-                <div class="title text-center">
-                  <h3>Domestic Products</h3>
-                </div>
-                <div class="des text-center">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
-                </div>
-                <div class="text-center">
-                  <button class="btn btn-primary button">Read more..</button>
-                </div>
-              </div>
-          </div>
-          <div class="col md 4">
-            <div class="bdcards ">
-                <div class="image">
-                  <img src="img/card1.jpg" alt="" class="img-responsive" >
-                </div>
-                <div class="title text-center">
-                  <h3>Domestic Products</h3>
-                </div>
-                <div class="des text-center">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt! Atque temporibus libero quae amet voluptates, provident iusto quasi suscipit.</p>
-                </div>
-                <div class="text-center">
-                  <button class="btn btn-primary button">Read more..</button>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
   <!-- end of card section -->
+
 <!-- counter section -->
-  <div class="container-fluid gradient ">
+<section class="counterSection">
+  <div class="head proj">
+      <h1>PROJECTS</h1>
+  </div>
+  <div class="container counter-section">
     <div class="row">
-
-      <div class="col-md-3 text-center first brdr counter-box" >
+      <!-- first column -->
+      <div class="col-md-3 counter-box" >
         <div class="icon-box">
-          <i class="fa fa-briefcase"></i>
+          <span class="flaticon-testing"></span>
         </div>
-        
-        <p class="counter">5860</p>
-        <p>Industrial Projects</p>
+        <h2 class="text-center counter">200</h2>
+        <p class="text-center">DOMESTIC PROJECTS</p>
       </div>
-
-      <div class="col-md-3 text-center first brdr counter-box" >
+      <!-- second column -->
+      <div class="col-md-3 counter-box" >
         <div class="icon-box">
-          <i class="fa fa-briefcase"></i>
+          <span class="flaticon-factory"></span>
         </div>
-        
-        <p class="counter">5485</p>
-        <p>Satisfied Customer</p>
+        <h2 class="text-center counter">500</h2>
+        <p class="text-center">INDUSTRIAL PROJECTS</p>
       </div>
-
-      <div class="col-md-3 text-center first brdr counter-box" >
+      <!-- third column -->
+      <div class="col-md-3 counter-box" >
         <div class="icon-box">
-          <i class="fa fa-briefcase"></i>
+          <span class="flaticon-satisfaction"></span>
         </div>
-        
-        <p class="counter">8964</p>
-        <p>Domestic Projects</p>
+        <h2 class="text-center counter">100</h2>
+        <p class="text-center">SATISFIED CUSTOMER</p>
       </div>
-
-      <div class="col-md-3 text-center first brdr counter-box" >
+      <!-- fourth column -->
+      <div class="col-md-3 counter-box" >
         <div class="icon-box">
-          <i class="fa fa-briefcase"></i>
+          <span class="flaticon-round-table"></span>
         </div>
-        
-        <p class="counter">1780</p>
-        <p>Event Organized</p>
+        <h2 class="text-center counter">1,000</h2>
+        <p class="text-center">EVENT ORGANIZED</p>
       </div>
-      
-      
     </div>
   </div>
+</section>
 <!-- end of counter section -->
-<!-- card slider -->
 
+<!-- card slider -->
+<section class="cardSection">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="cards">
+          <div class="sliderTxt">
+            <img src="img/cs1.jpg" alt="">
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta esse a porro nisi quasi quae voluptas ad ab eum! Quisquam recusandae beatae consequatur ducimus obcaecati!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="cards">
+          <div class="sliderTxt">
+            <img src="img/cs2.jpg" alt="">
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta esse a porro nisi quasi quae voluptas ad ab eum! Quisquam recusandae beatae consequatur ducimus obcaecati!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="cards">
+          <div class="sliderTxt">
+            <img src="img/cs3.jpg" alt="">
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta esse a porro nisi quasi quae voluptas ad ab eum! Quisquam recusandae beatae consequatur ducimus obcaecati!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="cards">
+          <div class="sliderTxt">
+            <img src="img/cs4.jpg" alt="">
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta esse a porro nisi quasi quae voluptas ad ab eum! Quisquam recusandae beatae consequatur ducimus obcaecati!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cards">
+          <div class="sliderTxt">
+            <img src="img/cs5.jpg" alt="">
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta esse a porro nisi quasi quae voluptas ad ab eum! Quisquam recusandae beatae consequatur ducimus obcaecati!</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 
   <div class="container-fluid card-slider">
     <div class="swiper-container">
       <div class="swiper-wrapper">
@@ -357,14 +373,74 @@
         </div>
        </div>
     </div>
-  </div>
-
+  </div> -->
 <!-- end of card slider -->
 
 <!-- Testimonial Section -->
+<section class="testimonials">
+  <div class="container-fluid" style="border:1px solid black">
+    <div class="row">
+      <div class="col-md-6" style="border:1px solid black">
+        <div id="testimonial-slider" class="owl-carousel">
+          <div class="testimonial">
+            <span class="fa fa-quote-left"></span>
+            <p class="description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur esse possimus quidem? Odio nemo, iusto quod architecto quam minus ullam.
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="img/cs3.jpg" alt="" height="200px">
+              </div>
+              <h3 class="title">Anne Marie</h3>
+            </div>
+          </div>
 
+          <div class="testimoinal">
+            <span class="fa fa-quote-left"></span>
+            <p class="description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur esse possimus quidem? Odio nemo, iusto quod architecto quam minus ullam.
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="img/cs3.jpg" alt="" height="200px">
+              </div>
+              <h3 class="title">Anne Marie</h3>
+            </div>
+          </div>
 
-  <div class="container-fluid test">
+          <div class="testimoinal">
+            <span class="fa fa-quote-left"></span>
+            <p class="description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur esse possimus quidem? Odio nemo, iusto quod architecto quam minus ullam.
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="img/cs3.jpg" alt="" height="200px">
+              </div>
+              <h3 class="title">Anne Marie</h3>
+            </div>
+          </div>
+
+          <div class="testimoinal">
+            <span class="fa fa-quote-left"></span>
+            <p class="description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur esse possimus quidem? Odio nemo, iusto quod architecto quam minus ullam.
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="img/cs3.jpg" alt="" height="200px">
+              </div>
+              <h3 class="title">Anne Marie</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- 
+    <div class="container-fluid test">
     <div class="row">
       <div class="col-md-6 review">
         <h1>GOOD WORDS</h1>
@@ -424,10 +500,10 @@
               </div>
             </div>
         </div>
-      </div>
-
+      </div> -->
+<!-- end of testimonial section -->
       <!-- TODO: -->
-      <div class="col-md-6 test team-section bodr">
+      <!-- <div class="col-md-6 test team-section bodr">
           <h1>OUR TEAM</h1>
           <span class="border"></span>
           <div class="ps bodr">
@@ -453,7 +529,7 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
 
 <!-- end of testimonial section -->
 
@@ -2173,39 +2249,39 @@
 
 <!-- End of footer -->
  <!-- counter -->
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 
-        <script>
-          jQuery(document).ready(function( $ )
-          {
-            $('.counter').counterUp({
-            delay: 10,
-            time: 2000
-            });
-          });
-        </script>
+    <script>
+      jQuery(document).ready(function($)
+      {
+        $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+        });
+      });
+    </script>
+
 <!-- card slider -->
  <script src="js/swiper.min.js"></script>
-  <!-- For Card Slider -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 10,
-        stretch: 0,
-        depth: 500,
-        modifier: 1,
-        slideShadows : true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 400,
+          modifier: 1,
+          slideShadows : true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
   
 </body>
 </html>

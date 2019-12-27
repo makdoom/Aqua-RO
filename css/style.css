@@ -19,7 +19,7 @@ nav{
     width: 100%;
     transition: .4s;
     position: fixed;
-    z-index: 1;
+    z-index: 1111;
 }
  nav.black{
     background: rgba(0, 0, 0, 0.8);
@@ -74,6 +74,7 @@ a.active, nav ul li a:hover{
     margin-right: 30px;
     cursor: pointer;
     display: none;
+    transition: .4s;
 }
 #check{
     display: none;
@@ -90,12 +91,16 @@ a.active, nav ul li a:hover{
 @media (max-width:858px){
     .checkbtn{
         display:block;
+        border: 1px solid black;
+        height: 0;
+    }
+    .checkbtn:hover{
+        color:steelblue;
     }
     nav ul{
         position: fixed;
         width: 100%;
         height: 70vh;
-        /* background:#2c3e50; */
         top:80px;
         left: -100%;
         text-align: center;
@@ -145,7 +150,7 @@ a.active, nav ul li a:hover{
     text-transform: uppercase;
     font-weight: 600;
 }
-.award span{
+ .award span{
     width: 100px;
     height:100px;
     line-height: 100px;
@@ -160,7 +165,7 @@ a.active, nav ul li a:hover{
 .award span:hover{
     transform: rotate(360deg);
 }
-.award span::before{
+ .award span::before{
     margin-left: 0;
     font-size: 50px;
     font-weight: 550;
@@ -187,6 +192,9 @@ a.active, nav ul li a:hover{
     box-shadow: 2px 2px 10px black;
     /* border-radius: 30px; */
 }
+.pcard input:hover{
+    cursor: pointer;
+}
 .pcard input,
 .toggle{
     position: absolute;
@@ -196,6 +204,7 @@ a.active, nav ul li a:hover{
     right: 20px;
     outline: none;
     z-index: 10;
+    /* pointer-events: all; */
 }
 .pcard input{
     opacity: 0;
@@ -244,7 +253,7 @@ a.active, nav ul li a:hover{
     color: #fff;
 }
 .detail .read{
-    pointer-events: all;
+    pointer-events: fill;
     margin-top: 30px;
     padding: 8px 14px;
     border:none;
@@ -260,128 +269,120 @@ a.active, nav ul li a:hover{
     transition: .4s;
     transform: translateY(-10px);
 }
-.bdcards{
-    float: left;
-    width: 100%;
-    border-radius: 5px;
-    margin: 10px;
-    margin-left: 15px;
-    box-shadow: 2px 2px 10px black;
+.counterSection{
+    /* margin:20px auto; */
+    background:radial-gradient(#353740,#62656E );
+    min-height: 80vh;
 }
-.image{
-    overflow: hidden;
-}
-.image img{
-    transition: all 1s ease;
-    width: 100%;
-    border-top-right-radius:5px;
-    border-top-left-radius: 5px;
-}
-.image:hover img{
-    transform: scale(1.5);
-}
-
-.button{
-    margin-top: 20px;
-    margin-bottom:20px;
-    border-radius: 50px;
-    
-}
-/* .join{
-    margin: 0px;
-    padding: 0px;
-}
-.join img{
-    background-size: cover;
-    background-color:rgba(0, 0, 0, 0.555);
-    background-blend-mode: overlay;
-    
-}*/
-
-
-
-
-.brdr{
-    height: 350px;
+.proj h1{
+    padding-top: 20px;
     color: white;
-}
-.gradient{
-    background-image: radial-gradient(#cc2b5e , #753a88);
-}
-.icon-box{
-    border: 1px solid black;
-    display: inline-block;
-    height: 70px;
-    width: 70px;
-    padding: 15px;  
-    transform: rotate(-45deg );
-}
-.first{
-    text-align: center;
-    padding-top:100px ;
-}
-.icon-box .fa{
-    font-size: 40px;
-    color:orange;
-    transform: rotate(45deg );
-}
-.counter-box .counter{
-    font-size: 40px;
-    margin-top: 20px;
-}
 
-.card-slider{
-    /* border: 1px solid black; */
-    height: auto;
+}
+.counter-section{
+    margin: 25px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;
+    color: #fff;
 }
-.card{
-    /* border: 1px solid black; */
-    border-radius: 5px;
-    width: 300px;
-    position: relative;
-    background: radial-gradient(#33eef5,#19ecad);
-    margin: 0px auto;
+
+.icon-box{
+    border: 2px solid gold;
+    height: 130px;
+    width: 130px;
+    margin-top: 20px;
+    margin: 50px auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,#662D8C,#ED1E79 );
+    box-shadow: 10px 10px 15px #00110A;
+    transform: rotate(45deg);
+    transition: .5s;
 }
-.card .content h3{
-    font-size: 25px;
+.icon-box span{
+    width: 90px;
+    height: 90px;
     text-align: center;
-    box-sizing: border-box;
-}
-.card .content p{
-    margin: 10px 15px;
-    justify-content: center;
-    box-sizing: border-box;
-}
-.card .sliderimg img{
-    position: relative;
-    width:100%;
-    height: 200px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.card .content a{
-    border: 2px solid #226622;
     display: inline-block;
-    margin: 10px 15px ;
-    padding: 10px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    color: #226622;
+    transition: .4s;
+    cursor: pointer;
+    transform: rotate(-45deg);
+}
+
+ .icon-box span::before{
+    margin-left: 0;
+    font-size: 60px;
+    color:white;
+    
+}
+.counter-box{
+    /* border: 1px solid white; */
+    margin:30px auto;
+}
+.counter-box h2{
+    font-size: 40px;
     font-weight: 600;
+}
+.counter-box p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.cardSection{
+    /* margin: 20px auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: linear-gradient(#B066FE ,#63E2FF)
+}
+.cards{
+    position: relative;
+    background: #fff;
+    width: 300px;
+    height: 470px;
+    margin: 5px auto;
+}
+.cards .sliderTxt{
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .content{
+    width: 300px;
+    height: 260px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+.cards .sliderTxt img{
+    position: absolute;
+    height: 210px;
+    width: 300px;
+}
+.cards .content a{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 18px;
+    text-decoration: none;
+    border: 2px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .swiper-slide{
     width: 300px;
 }
 
+/* 
 .test{
       height:490px;
       background: linear-gradient(#185a9d,#43cea2);
-}
+} 
 
 .item .pad{
     padding-left: 15px;
@@ -418,7 +419,6 @@ a.active, nav ul li a:hover{
     overflow: hidden;
 }
 .carousel-inner{
-    /* border: 1px solid white; */
     min-height: 400px;
     margin: 0px;
     padding: 0px;
@@ -469,7 +469,7 @@ a.active, nav ul li a:hover{
 }
 .ps a:hover > img{
     filter: none;
-}
+} */
 .section{
     width: 500px;
     margin: auto;

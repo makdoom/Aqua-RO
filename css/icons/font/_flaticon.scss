@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 23/12/2019 16:43
+    Creation date: 26/12/2019 09:14
     */
 
     @font-face {
@@ -37,18 +37,24 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-trophy:before { content: "\f100"; }
-.flaticon-quality:before { content: "\f101"; }
-.flaticon-certificate:before { content: "\f102"; }
-.flaticon-repairing-service:before { content: "\f103"; }
-.flaticon-save-money:before { content: "\f104"; }
-.flaticon-like:before { content: "\f105"; }
-.flaticon-consult:before { content: "\f106"; }
+    .flaticon-testing:before { content: "\f100"; }
+.flaticon-factory:before { content: "\f101"; }
+.flaticon-satisfaction:before { content: "\f102"; }
+.flaticon-round-table:before { content: "\f103"; }
+.flaticon-trophy:before { content: "\f104"; }
+.flaticon-quality:before { content: "\f105"; }
+.flaticon-certificate:before { content: "\f106"; }
+.flaticon-repairing-service:before { content: "\f107"; }
+.flaticon-save-money:before { content: "\f108"; }
+.flaticon-like:before { content: "\f109"; }
     
-    $font-Flaticon-trophy: "\f100";
-    $font-Flaticon-quality: "\f101";
-    $font-Flaticon-certificate: "\f102";
-    $font-Flaticon-repairing-service: "\f103";
-    $font-Flaticon-save-money: "\f104";
-    $font-Flaticon-like: "\f105";
-    $font-Flaticon-consult: "\f106";
+    $font-Flaticon-testing: "\f100";
+    $font-Flaticon-factory: "\f101";
+    $font-Flaticon-satisfaction: "\f102";
+    $font-Flaticon-round-table: "\f103";
+    $font-Flaticon-trophy: "\f104";
+    $font-Flaticon-quality: "\f105";
+    $font-Flaticon-certificate: "\f106";
+    $font-Flaticon-repairing-service: "\f107";
+    $font-Flaticon-save-money: "\f108";
+    $font-Flaticon-like: "\f109";
