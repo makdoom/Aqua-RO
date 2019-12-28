@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
-*,html,body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -161,6 +161,9 @@ a.active, nav ul li a:hover{
     transition: .4s;
     cursor: pointer;
     
+}
+.award h3{
+    margin-top: 10px;
 }
 .award span:hover{
     transform: rotate(360deg);
@@ -379,8 +382,6 @@ a.active, nav ul li a:hover{
 }
 /* testimonial section */
 .testimonials{
-    /* min-height: 80vh; */
-    border: 1px solid #000;
     background: linear-gradient(#45145A , #FF5300);
     color: #fff;
     padding-bottom: 50px;
@@ -400,7 +401,7 @@ a.active, nav ul li a:hover{
     border: 5px solid white;
     overflow: hidden;
     transition: .4s;
-    /* margin: 10px auto; */
+    margin: 10px auto;
 }
 .imgarea img:hover{
     transform: scale(1.1);
@@ -411,67 +412,12 @@ a.active, nav ul li a:hover{
 }
 /* end of testimonial section */
 /* our team section */
-/* 
-.middle{
-    position: absolute;
-    top: 10%;
-    left: 1%;
-    transform: translate(-1%, -1%);
-}
-.tcard{
-    height: 300px;
-    width:200px;
-    cursor: pointer;
-    margin:30px auto;
-}
-.front img{
-    width: 100%;
-    height: 100%;
-}
-.front, .back{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    backface-visibility: hidden;
-    position: absolute;
-    transition: transform .6s linear;
-}
-.back{
-    background: #f1f1f1;
-    transform: perspective(600px) rotateX(180deg);
-}
-.front{
-    transform: perspective(600px) rotateX(0deg);
-}
-.back-content{
-    color: slateblue;
-    text-align: center;
-    width: 100%;
-}
-.sm a{
-    display: inline-flex;
-    width: 20px;
-    height: 20px;
-    font-size: 18px;
-    transition: .4s;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-}
-.tcard:hover > .front{
-    transform: perspective(600px) rotateX(-180deg);
-}
-.tcard:hover > .back{
-    transform: perspective(600px) rotateX(0deg);
-} */
 .tcardsection{
-    /* border: 1px solid #000; */
     margin: 0;
     padding: 0px;
     height: 450px;
 } 
 .tcardsection .mainteam{
-     border: 1px solid #fff;
      height: 100%;
  }
  .mainteam .teamdesc{
@@ -480,196 +426,158 @@ a.active, nav ul li a:hover{
      width: auto;
  }
  .mainteam .teamdesc p{
-     margin-left: 5px;
+     margin: 7px 12px;
      letter-spacing: .5px;
  }
- .mainteam .teamimage{
-        border: 1px solid green;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+ .mainteam .mainbox{
+     margin: 10px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
-  .mainteam .teamimage .timg{
-      border: 1px solid greenyellow;
-      width: 250px;
-      height:330px;
-      margin:0 20px;
+ .mainbox .box{
+     margin: 5px 10px;
+     position: relative;
+     width: 240px;
+     height: 300px;
+     border-radius: 15px;
+     overflow: hidden;
+     text-align: center;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+ }
+ .box .img-box{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     transition: .5s;
+     z-index: 2;
+     background: #000;
+ }
+ .img-box img{
+     transition: .5s;
+     height: 330px;
+     width: 255px;
+ }
+ .box:hover .img-box img{
+     opacity: .5;
+ }
+ .box .social-links{
+     position: absolute;
+     top: 45%;
+     left:45%;
+     transform: translate(-45%, -45%);
+     z-index: 3;
+     display: flex;
+     margin: 0;
+     padding: 0;
+ }
+.social-links li{
+     list-style: none;
+ }
+ .social-links li a{
+     position: relative;
+     display: block;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     background-color: #fff;
+     color: #262626;
+     margin: 0 5px;
+     border-radius: 50%;
+     transition:.5s;
+     transform: translateY(150px);
+ }
+ .box:hover  .social-links li a{
+     transform: translateY(0px);
+     opacity:45;
+ }
+ .box:hover  .social-links li:nth-child(1) a{
+     transition-delay: 0s;
+ }
+ .box:hover  .social-links li:nth-child(2) a{
+     transition-delay: 0.2s;
+ }
+ .box:hover  .social-links li:nth-child(3) a{
+     transition-delay: 0.4s;
+ }
+ .box:hover  .social-links li:nth-child(4) a{
+     transition-delay: 0.6s;
+ }
+ .box .social-links li a .fa{
+     font-size: 22px;
+     line-height: 40px;
+     transition: .5s;
+ }
+ .box .social-links li a:hover .fa{
+      transform: rotateY(360deg);
   }
-  .teamimage .timg img{
-      width: 100%;
-      height: 220px;
-  }
-  .mainteam .teamimage .timg2{
-      border: 1px solid greenyellow;
-      width: 250px;
-      height:300px
-  }
-.teamimage .timg2 img2{
-      width: 100%;
-      height: 240px;
-  }
-  .teamimage .link{
+.box .details{
+      position: absolute;
+      bottom: 0;
+      left: 0;
       background: #fff;
-      height: 110px;
+      z-index: 4;
+      width: 100%;
       color: black;
+      height: 70px;
+      box-sizing: border-box;
   }
-/* end of our team section */
-/* 
-.test{
-      height:490px;
-      background: linear-gradient(#185a9d,#43cea2);
-} 
-
-.item .pad{
-    padding-left: 15px;
-    margin: 0px;
-    text-align: justify;
-}
-.review h1{
-    text-align: center;
-    color: white;
-    margin: 15px;
-    font-weight: 600;
-}
-#quote-carousel{
-    padding: 10px ;
-}
-#quote-carousel .carousel-indicators li{
-    width: 62px;
-    height: 62px;
-    margin: 5px;
-    cursor: pointer;
-    border: 4px solid grey;
-    border-radius: 50px;
-    opacity: 0.4;
-    overflow: hidden;
-    transition: all 0.4s;
-}
-#quote-carousel .carousel-indicators .active{
-    background: #333333;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    border-color: white;
-    opacity: 1;
-    overflow: hidden;
-}
-.carousel-inner{
-    min-height: 400px;
-    margin: 0px;
-    padding: 0px;
-}
-.item p{
-    font-size: 18px;
-    color: white;
-}
-.item small{
-    text-align: center;
-    color: white;
-    font-size: 16px;
-}
-
-
-
-.team-section{
-    overflow: hidden;
-    text-align: center;
-    padding: 30px;
-}
-.team-section h1{
-    margin-top: -15px;
-    font-weight: 600;
-    color: white;
-    font-size: 40px;
-}
-.border{
-    display: block;
-    margin:auto;
-    width: 180px;
-    height: 3px;
-    margin-bottom: 30px;
-    background: #25f1a3;
-}
-.ps{
-    margin-bottom: 40px;
-}
-.ps a{
-    display: inline-block;
-    margin: 0px 30px;
-    overflow: hidden;
-    border-radius: 50%;
-}
-.ps a img{
-    filter: grayscale(100%);
-    transition: 0.4s all;
-}
-.ps a:hover > img{
-    filter: none;
-} */
-.section{
-    width: 500px;
-    margin: auto;
-    font-size: 20px;
-    color: white ;
-    height: 0;
-    overflow: hidden; 
+.details h4{
+    margin-top: 5px;
     
-   
+  }
+.details p{
+    margin-bottom: -10px;
+    color: #bbb;
+  }
+ /* end of our team section */
+ /* Services Area */
+ .serviceArea{
+    background: linear-gradient(#00B7FF  ,rgb(24, 238, 220));
+ }
+.area::-webkit-scrollbar{
+     width: 15px;
+ }
+.area::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: #f5f5f5;  
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
+ }
+ .area::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: linear-gradient(#2E3192   ,#1BFFFF );
+ }
+.serviceArea .head h2{
+    /* margin-top: 50px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 550;
 }
-.section:target{
-    height: auto;
-
-}
-.name{
-    display: block;
-    /* border:1px solid black; */
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-.section p{
-    font-size: 20px;
-}
-.main-div{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #b1e9fa;
-    /* border: 1px solid black; */
-}
-#service{
-    margin: 20px 20px;
-    /* font-size: 30px; */
-    
-    
-}
-.area{
-    height: 350px;
+ .serviceArea .area{
+    height: 400px;
     overflow: auto;
-     /* border: 1px solid black; */
-   
-}
-.area ul li{
-    
-    margin: 0px;
-    padding: 0px;
-    padding-left: 1px;
-    text-decoration: none;
-    /* border: 1px solid black; */
-    display: inline-block;
-    
-}
-.area ul li a{
-    color: black;
-    padding: 1px;
-    font-size: 12px;   
-    
-}
-.footer{
+    overflow-x: hidden;
+ }
+ .service-sec{
+    padding-bottom: 20px;
+ }
+ .area ul li a{
+     color: black;
+ }
+
+
+#footer{
     background-color: black;
     height: auto;
     color: white;
     font-size: 14px;
-    
+    padding-bottom: 0;
+}
+.footertop{
+    padding-top: 20px;
 }
 #add{
     padding: 2px;
@@ -838,5 +746,6 @@ textarea.contact-form-text{
 .bfooter{
    color: white;
    text-align: center;
+   padding-bottom: 10px;
 }
 
