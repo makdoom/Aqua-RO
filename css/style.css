@@ -29,7 +29,7 @@ header{
 }
 header.black{
     background: #000;
-    padding: 0 30px;
+    /* padding: 0 30px; */
     line-height: 60px;
 }
 header .logo{
@@ -57,18 +57,17 @@ header nav ul li{
     list-style: none;
     transition: .4s;
     position: relative;
+    margin: 2px ;
 }
 header nav ul li.sub-menu:before{
     content: '\f0d7';
     font-family: fontAwesome;
     position: absolute;
     line-height: 50px;
-    right: 5px;
+    right: 1px;
     color: #fff;
 }
-header nav ul li.active.sub-menu:before{
-    content: '\f0d8';
-}
+
 header nav ul li:hover{
     background: #2196f2;
 }
@@ -78,7 +77,7 @@ header nav ul li a{
     color: white;
     height: 50px;
     line-height: 50px;
-    padding:0px 20px;
+    padding:0px 15px;
     transition: 0.4s;
     font-size: 17px;
     text-transform: uppercase;
@@ -86,7 +85,7 @@ header nav ul li a{
     display: block;
 }
 header.black nav ul li a{
-    font-size: 16px;
+    font-size: 15px;
 }
 header nav ul li a.active,
 header nav ul li a:hover{
