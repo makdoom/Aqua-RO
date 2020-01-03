@@ -40,7 +40,7 @@
         <div class="logo">RO SOLUTION</div>
         <nav class="active">
           <ul>
-            <li><a href="#" class="active">Home</a></li>
+            <li><a href="index.php" >Home</a></li>
             <li class="sub-menu"><a href="">Product</a>
               <ul>
                 <li><a href="">Submenu 1</a></li>
