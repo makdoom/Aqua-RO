@@ -29,6 +29,8 @@
   <script src="../js/sticky.js"></script>
   <!-- Flat icon fonts -->
   <link rel="stylesheet" href="../css/icons/font/flaticon.css">
+  <link rel="stylesheet" href="../css/icons/aboutFont/flaticon.css">
+
 
   <title>Aqua</title>
 

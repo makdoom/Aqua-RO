@@ -66,7 +66,7 @@
             </div>
           </div>
 
-          <div class="row award2"">
+          <div class="row award2">
             <div class="col-sm-4 award">
               <span class="flaticon-repairing-service"></span>
               <h3 class="text-center">Same Day Service</h3>

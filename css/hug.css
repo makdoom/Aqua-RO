@@ -1,0 +1,200 @@
+ 
+ body {
+	 font-family: "Barlow", sans-serif;
+	 margin: 0;
+	 place-items: center;
+	 background-color: #f2f2f2;
+}
+ .abcards {
+	 width: 100%;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 border: 1px solid #000;
+	 margin: 10px;
+	 padding: 10px;
+}
+ .abcards .abcard {
+	 height: 440px;
+	 background: #fff;
+	 border-radius: 4px;
+	 box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.1);
+	 /* max-width: 300px;
+	 min-width: 260px; */
+	 overflow: hidden;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 flex-direction: column;
+	 position: relative;
+	 transition: all 0.4s ease;
+	 margin: 0 10px;
+}
+.abcards .abcard:before {
+	 height: 190px;
+	 width: calc(100% + 100px);
+	 content: "";
+	 position: absolute;
+	 background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+	 border-radius: 4px 4px 100% 100%;
+	 transition: all 0.4s ease-out;
+	 top: 0;
+}
+ .abcards .abcard .close {
+	 width: 18px;
+	 height: 18px;
+	 position: absolute;
+	 z-index: 2;
+	 cursor: pointer;
+	 background-image: url("https://rafaelalucas91.github.io/assets/icons/misc/cross.svg");
+	 background-size: 80%;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 top: 0;
+	 right: 0;
+	 margin: 10px;
+	 padding: 5px;
+	 transition: all 0.2s ease;
+}
+ .abcards .abcard .close:hover {
+	 background-size: 100%;
+	 opacity: 0.8;
+}
+.abcards .abcard.arrow {
+	 display: none;
+}
+.abcards .abcard article {
+	 z-index: 1;
+	 display: flex;
+	 align-items: center;
+	 flex-direction: column;
+	 text-align: center;
+	 margin: 5px;
+}
+ .abcards .abcard article h2 {
+	 color: white;
+	 /* margin: 0; */
+	 /* padding: 20px 10px 5px 10px; */
+	 font-weight: 500;
+	 font-size: 24px;
+	 letter-spacing: 0.5px;
+}
+ .abcards .abcard article .title {
+	 color: white;
+	 padding: 10px 20px;
+	 letter-spacing: 0.8px;
+	 transition: all 0.4s ease;
+}
+ .abcards .abcard article .desc {
+	 padding: 10px 30px;
+	 font-size: 14px;
+	 text-align: center;
+	 line-height: 24px;
+	 color: #666;
+	 height: 90px;
+	 transition: all 0.4s ease-out;
+}
+ .abcards .abcard article .pic {
+	 width: 120px;
+	 height: 120px;
+	 overflow: hidden;
+	 border-radius: 100%;
+	 margin: 20px 0;
+	 box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+	 transition: all 0.6s ease;
+}
+.abcards .abcard article .pic img {
+	 width: 100%;
+	  
+}
+  
+.abcards .abcard:hover {
+	 transform: translateY(-10px);
+	 box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.abcards .abcard:hover:before {
+	 height: 100%;
+	 border-radius: 4px;
+}
+ .abcards .abcard:hover .desc {
+	 color: white;
+}
+.abcards .abcard:hover .pic {
+	 box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);
+}
+ .abcards .abcard:hover .pic img {
+	 -webkit-filter: grayscale(0%);
+	 filter: grayscale(0%);
+}
+ .abcards .abcard.closed {
+	 min-width: 120px;
+	 max-width: 120px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 transition: all 0.6s ease;
+	 cursor: pointer;
+}
+ .abcards .abcard.closed .title, .abcards .abcard.closed .desc, .abcards .abcard.closed .actions, .abcards .abcard.closed .close {
+	 display: none;
+}
+.abcards .abcard.closed h2 {
+	 padding: 0;
+	 height: 100%;
+	 transform: rotate(-90deg);
+	 width: 440px;
+	 z-index: 2;
+	 transition: all 0.6s ease;
+}
+ .abcards .abcard.closed .pic {
+	 border-radius: 100%;
+	 height: 400px;
+	 width: 400px;
+	 position: absolute;
+	 top: -20px;
+	 margin: 0;
+	 box-shadow: 0;
+	 transition: all 0.6s ease;
+}
+ .abcards .abcard.closed .pic img {
+	 object-fit: cover;
+	 height: 100%;
+	 transform: translateY(20px);
+}
+ .abcards .abcard.closed .pic:before {
+	 content: "";
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 background-color: black;
+	 opacity: 0.5;
+	 z-index: 1;
+	 transition: all 0.4s ease;
+	 transform: translateY(20px);
+}
+.abcards .abcard.closed:before {
+	 height: 100%;
+	 border-radius: 4px;
+}
+.abcards .abcard.closed .arrow {
+	 width: 18px;
+	 height: 18px;
+	 position: absolute;
+	 z-index: 2;
+	 cursor: pointer;
+	 bottom: 15px;
+	 padding: 5px;
+	 display: flex;
+	 justify-content: center;
+	 background-image: url(..//Desktop/expand.svg);
+	 background-size: 80%;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 transition: all 0.2s ease;
+}
+.abcards .abcard.closed:hover .arrow {
+	 background-size: 100%;
+	 opacity: 0.6;
+}
+ 
+     
