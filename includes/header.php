@@ -22,6 +22,8 @@
   <!-- Custom css -->
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/contact.css">
+
 
     <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -30,6 +32,7 @@
   <!-- Flat icon fonts -->
   <link rel="stylesheet" href="../css/icons/font/flaticon.css">
   <link rel="stylesheet" href="../css/icons/aboutFont/flaticon.css">
+  <link rel="stylesheet" href="../css/icons/contactFont/flaticon.css">
 
 
   <title>Aqua</title>
@@ -59,7 +62,7 @@
                 <li><a href="">Submenu 1</a></li>
               </ul>
             </li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contactus.php">Contact</a></li>
             <li><a href="about.php">About</a></li>
           </ul>
         </nav>
