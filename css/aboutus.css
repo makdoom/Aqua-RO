@@ -130,6 +130,9 @@
     z-index: 1;
     transform: translateY(100px);
 }
+.about-card:hover .area.area1 .contents img{
+    filter: brightness(0) invert(1);
+}
 .about-card:hover .area.area1{
     background: #0099ff;
     transform: translateY(0px);
@@ -140,15 +143,14 @@
 .about-card .area.area1 .contents  h3{
     text-transform: uppercase;
 }
-.about-card .area.area1 .contents span{
-    text-align: center;  
+.about-card .area.area1 .contents img{
+    filter: brightness(0) invert(1);
+    height: 90px;
+    width: 90px;
+    margin-bottom: 7px;
 }
-.about-card .area.area1 .contents span:before{
-    margin: 0;
-    font-size: 90px;
-    color:white;
-    text-align: center;
-    transition: .4s;
+.about-card:hover .area.area1 .contents img{
+    filter: brightness(0) invert(1);
 }
 .about-card .area.area2{
     position: relative;

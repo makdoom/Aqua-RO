@@ -71,7 +71,7 @@
                     <i class="fa fa-phone" >&nbsp; +91-9029292969</i><br>
                     <i class="fa fa-phone" >&nbsp; 9029292969</i>
                     <br>
-                    <i class="fa fa-envelope" >&nbsp; makshaikh99@gmail.com</i><br>
+                    <i class="fa fa-envelope" >&nbsp; makshaikh00@gmail.com</i><br>
                     <i class="fa fa-globe">&nbsp; www.rosolution.com</i>
 
                 </div>
@@ -93,8 +93,8 @@
               <div class="col-sm-3 ">
                 <!-- payment area -->
                 <h3 id="pay">Pay Now </h3><br>
-                <img id="visa" src="img/payment/pay.png" alt="visa"><br>
-                <img id="visa" src="img/payment/paytm.png" alt="visa"><br>
+                <img id="visa" src="../img/payment/pay.png" alt="visa"><br>
+                <img id="visa" src="../img/payment/paytm.png" alt="visa"><br>
               </div>
             </div>
           </div>

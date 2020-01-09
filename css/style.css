@@ -331,22 +331,18 @@ header nav ul li:hover ul{
     transform: rotate(45deg);
     transition: .5s;
 }
-.icon-box span{
-    width: 90px;
-    height: 90px;
+.icon-box img{
+    width: 70px;
+    height: 70px;
     text-align: center;
     display: inline-block;
     transition: .4s;
     cursor: pointer;
     transform: rotate(-45deg);
+    filter: brightness(0) invert(1);
 }
 
- .icon-box span::before{
-    margin-left: 0;
-    font-size: 60px;
-    color:white;
-    
-}
+
 .counter-box{
     /* border: 1px solid white; */
     margin:30px auto;

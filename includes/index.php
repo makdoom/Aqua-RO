@@ -155,7 +155,8 @@
           <!-- first column -->
           <div class="col-md-3 counter-box" >
             <div class="icon-box">
-              <span class="flaticon-testing"></span>
+              <img src="../img/png/testing.png" alt="">
+              <!-- <spna class="flaticon-testing"></spna> -->
             </div>
             <h2 class="text-center counter">200</h2>
             <p class="text-center">DOMESTIC PROJECTS</p>
@@ -163,7 +164,8 @@
           <!-- second column -->
           <div class="col-md-3 counter-box" >
             <div class="icon-box">
-              <span class="flaticon-factory"></span>
+              <img src="../img/png/factory.png" alt="">
+              <!-- <span class="flaticon-factory"></span> -->
             </div>
             <h2 class="text-center counter">500</h2>
             <p class="text-center">INDUSTRIAL PROJECTS</p>
@@ -171,7 +173,8 @@
           <!-- third column -->
           <div class="col-md-3 counter-box" >
             <div class="icon-box">
-              <span class="flaticon-satisfaction"></span>
+              <img src="../img/png/satisfaction.png" alt="">
+              <!-- <span class="flaticon-satisfaction"></span> -->
             </div>
             <h2 class="text-center counter">100</h2>
             <p class="text-center">SATISFIED CUSTOMER</p>
@@ -179,7 +182,8 @@
           <!-- fourth column -->
           <div class="col-md-3 counter-box" >
             <div class="icon-box">
-              <span class="flaticon-round-table"></span>
+              <img src="../img/png/round-table.png" alt="">
+              <!-- <span class="flaticon-round-table"></span> -->
             </div>
             <h2 class="text-center counter">1,000</h2>
             <p class="text-center">EVENT ORGANIZED</p>

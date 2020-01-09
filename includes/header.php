@@ -20,9 +20,9 @@
   <!-- 3D swipper -->
   <link rel="stylesheet" href="../css/swiper.min.css">
   <!-- Custom css -->
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/about.css">
-  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="../css/aboutus.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="../css/contact.css?v=<?php echo time(); ?>">
 
 
     <!-- Font Awesome -->
@@ -31,8 +31,6 @@
   <script src="../js/sticky.js"></script>
   <!-- Flat icon fonts -->
   <link rel="stylesheet" href="../css/icons/font/flaticon.css">
-  <link rel="stylesheet" href="../css/icons/aboutFont/flaticon.css">
-  <link rel="stylesheet" href="../css/icons/contactFont/flaticon.css">
 
 
   <title>Aqua</title>

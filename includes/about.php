@@ -39,7 +39,7 @@
                     <div class="about-card">
                         <div class="area area1">
                             <div class="contents">
-                                <span class="flaticon-team"></span>
+                                <img src="../css/png/team.png" >
                                 <h3>Who We Are</h3>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                     <div class="about-card">
                         <div class="area area1">
                             <div class="contents">
-                                <span class="flaticon-history-clock-button"></span>
+                                <img src="../css/png/history.png" alt="">
                                 <h3>Our History</h3>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                     <div class="about-card">
                         <div class="area area1">
                             <div class="contents">
-                                <span class="flaticon-badge"></span>
+                                <img src="../css/png/like.png" alt="">
                                 <h3>Our Best</h3>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                     <div class="about-card">
                         <div class="area area1" id="mission">
                             <div class="contents">
-                                <span class="flaticon-target"></span>
+                                <img src="../css/png/target.png" alt="">
                                 <h3>mission</h3>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                     <div class="about-card">
                         <div class="area area1" id="mission">
                             <div class="contents">
-                                <span class="flaticon-vision"></span>
+                                <img src="../css/png/vision.png" alt="">
                                 <h3>vision</h3>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                     <div class="about-card">
                         <div class="area area1" id="mission">
                             <div class="contents">
-                                <span class="flaticon-value"></span>
+                                <img src="../css/png/pma.png" alt="">
                                 <h3>core values</h3>
                             </div>
                         </div>
@@ -130,11 +130,8 @@
                 </div>
             </div>
         </section>
-        
-        
-
     </body>
-</html>
+</html> 
     
 <?php
     include "footer.php";
