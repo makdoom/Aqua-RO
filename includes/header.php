@@ -60,6 +60,7 @@
                 <li><a href="">Submenu 1</a></li>
               </ul>
             </li>
+            <li><a href="review.php">Review</a></li>
             <li><a href="contactus.php">Contact</a></li>
             <li><a href="about.php">About</a></li>
           </ul>
