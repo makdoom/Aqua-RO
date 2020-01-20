@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="../css/aboutus.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="../css/contact.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="../css/product.css?v=<?php echo time(); ?>">
 
 
     <!-- Font Awesome -->
@@ -46,10 +47,12 @@
             <li><a href="index.php" >Home</a></li>
             <li class="sub-menu"><a href="">Product</a>
               <ul>
-                <li><a href="">Submenu 1</a></li>
-                <li><a href="">Submenu 1</a></li>
-                <li><a href="">Submenu 1</a></li>
-                <li><a href="">Submenu 1</a></li>
+                <li><a href="aquaFreshRo.php">aqua fresh ro</a></li>
+                <li><a href="aquaGrand.php">Aqua Grand RO</a></li>
+                <li><a href="">Krona RO</a></li>
+                <li><a href="">Kent RO</a></li>
+                <li><a href="">Tata Swach RO</a></li>
+                <li><a href="">Nasaka RO</a></li>
               </ul>
             </li>
             <li class="sub-menu"><a href="#">Services</a>
@@ -60,7 +63,7 @@
                 <li><a href="">Submenu 1</a></li>
               </ul>
             </li>
-            <li><a href="review.php">Review</a></li>
+            <li><a href="comment.php">Review</a></li>
             <li><a href="contactus.php">Contact</a></li>
             <li><a href="about.php">About</a></li>
           </ul>
