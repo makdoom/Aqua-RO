@@ -58,15 +58,20 @@
 .product1{
     margin: 0;
     padding: 0;
-    width: 350px;
+    width: 300px;
     box-shadow: 0 5px 10px #000;
+    background: #000;
+    
 }
-.product img{
-    width: 100%;
+.product1 img{
+    width:100%;
+    transition: .3s;
+}
+.product1 img:hover{
+    opacity: .7;
 }
 #p1content{
     position: relative;
-    z-index: 3;
     /* border: 1px solid #000; */
     text-align: justify;
     padding: 0px 15px;

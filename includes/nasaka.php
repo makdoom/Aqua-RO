@@ -1,11 +1,10 @@
 <?php
     include "header.php";
+    include "productBanner.php";
 ?>
-
-     <section class="product-detail">
-         <?php include "productBanner.php" ?>
+ <section class="product-detail">
         <div class="products">
-            <p>Aqua fresh ro</p>
+            <p>Nasaka ro</p>
         </div>
         <div class="container" id="pcontainer">
             <!-- PRODUCT 1 -->
@@ -242,6 +241,4 @@
         </div>
      </section>
 
-<?php
-    include "footer.php";
-?>
+<?php include "footer.php"; ?>

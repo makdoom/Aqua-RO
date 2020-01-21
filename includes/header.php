@@ -49,10 +49,10 @@
               <ul>
                 <li><a href="aquaFreshRo.php">aqua fresh ro</a></li>
                 <li><a href="aquaGrand.php">Aqua Grand RO</a></li>
-                <li><a href="">Krona RO</a></li>
-                <li><a href="">Kent RO</a></li>
-                <li><a href="">Tata Swach RO</a></li>
-                <li><a href="">Nasaka RO</a></li>
+                <li><a href="karona.php">Krona RO</a></li>
+                <li><a href="kent.php">Kent RO</a></li>
+                <li><a href="tata.php">Tata Swach RO</a></li>
+                <li><a href="nasaka.php">Nasaka RO</a></li>
               </ul>
             </li>
             <li class="sub-menu"><a href="#">Services</a>
