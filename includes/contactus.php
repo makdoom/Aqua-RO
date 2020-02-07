@@ -2,12 +2,12 @@
     include "header.php";
 ?>
 
-<section class="contactus">
+<section  class="contactus">
     <div class="cont-banner">
         <div class="banner"></div>
              <h2>Contact Us</h2>
         </div>
-    <section class="contact-sec">
+    <section data-aos="fade-up" class="contact-sec">
         <h2 class="query text-center">FOR QUICK QUERY & SERVICE, CALL @ 1234567895 || 123654789</h2>
         <div class="wrapper">
             <h2>Contact Us</h2>
@@ -36,7 +36,7 @@
             </form>
         </div>
     </section> 
-    <section class="touch-sec">
+    <section data-aos="fade-up" class="touch-sec">
         <div class="container">
             <div class="head headng">
                 <h1>get in touch</h1>
@@ -73,7 +73,7 @@
             </div>
         </div>
     </section>
-    <section class="map">
+    <section data-aos="fade-up" class="map">
         <div class="head headng">
                 <h1>Branches</h1>
             </div>

@@ -14,7 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
   <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <!-- 3D swipper -->
@@ -24,6 +24,10 @@
   <link rel="stylesheet" href="../css/aboutus.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="../css/contact.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="../css/product.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="../css/aos.scss?v=<?php echo time(); ?>">
+
+  <!-- Animation css -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
     <!-- Font Awesome -->

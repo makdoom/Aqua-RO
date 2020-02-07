@@ -34,16 +34,16 @@
 
       <!-- introduction  -->
       <section id="introduction">
-        <div class="container">
-            <h1 class="mt-4 mb-4">WELCOME</h1>
-            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quae rerum ratione laboriosam similique aliquam culpa quia qui ea ipsa. Temporibus maiores repudiandae sit labore ab, suscipit ducimus amet harum expedita sapiente! Tempore facilis velit iste, libero explicabo aliquam reprehenderit quidem ratione ut, minima fugiat eius, necessitatibus pariatur aut excepturi nobis. Corporis repudiandae quis, tempora neque temporibus at officiis expedita eaque quisquam, recusandae iure pariatur, ex fugit deleniti voluptas ducimus quo totam commodi laboriosam quam. Labore, minus ea amet incidunt natus, voluptate adipisci mollitia aut doloremque nulla corrupti sit reiciendis provident iure repellat pariatur velit facere. Impedit perspiciatis distinctio amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat, debitis incidunt minima omnis saepe hic voluptate delectus ipsa deleniti odio voluptatem dolore quisquam est ad distinctio qui doloremque illum necessitatibus fugit dolor ducimus! Placeat esse excepturi, animi explicabo, cum atque vel saepe quam commodi, eaque repellendus est voluptatem. Delectus, quibusdam earum, corrupti reprehenderit, amet suscipit eos maiores facilis rem aut magnam unde doloremque quidem. Eum consequatur omnis ducimus facilis alias totam, eligendi rerum quis sed illum molestias animi illo quisquam! Eveniet minus omnis, adipisci beatae pariatur deserunt velit praesentium, tempora alias, ea in architecto earum unde. Quia, vitae consectetur!</p>
+        <div class="container" data-aos="fade-up">
+            <h1  class="mt-4 mb-4">WELCOME</h1>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quae rerum ratione laboriosam similique aliquam culpa quia qui ea ipsa. Temporibus maiores repudiandae sit labore ab, suscipit ducimus amet harum expedita sapiente! Tempore facilis velit iste, libero explicabo aliquam reprehenderit quidem ratione ut, minima fugiat eius, necessitatibus pariatur aut excepturi nobis. Corporis repudiandae quis, tempora neque temporibus at officiis expedita eaque quisquam, recusandae iure pariatur, ex fugit deleniti voluptas ducimus quo totam commodi laboriosam quam. Labore, minus ea amet incidunt natus, voluptate adipisci mollitia aut doloremque nulla corrupti sit reiciendis provident iure repellat pariatur velit facere. Impedit perspiciatis distinctio amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat, debitis incidunt minima omnis saepe hic voluptate delectus ipsa deleniti odio voluptatem dolore quisquam est ad distinctio qui doloremque illum necessitatibus fugit dolor ducimus! Placeat esse excepturi, animi explicabo, cum atque vel saepe quam commodi, eaque repellendus est voluptatem. Delectus, quibusdam earum, corrupti reprehenderit, amet suscipit eos maiores facilis rem aut magnam unde doloremque quidem. Eum consequatur omnis ducimus facilis alias totam, eligendi rerum quis sed illum molestias animi illo quisquam! Eveniet minus omnis, adipisci beatae pariatur deserunt velit praesentium, tempora alias, ea in architecto earum unde. Quia, vitae consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio temporibus nemo reprehenderit quidem, velit enim autem expedita quam eaque tempora eligendi, perferendis voluptatibus mollitia vel iste tempore praesentium harum molestias eveniet nisi placeat animi minima totam? Aperiam id expedita odio necessitatibus dolores pariatur unde ab, perspiciatis nobis impedit dicta assumenda!</p>
         </div>
 
       </section>
       <!-- end of introduction -->
 
       <!-- achievements section -->
-      <section>
+      <section data-aos="fade-up">
         <div class="head">
           <h1 class="text-center mt-4 mb-4">Achievements</h1>
         </div>
@@ -88,7 +88,7 @@
       <!-- end of achievements section -->
 
       <!-- Card section -->
-      <section class="products">
+      <section data-aos="fade-up" class="products">
         <div class="head">
           <h1>Products</h1>
         </div>
@@ -146,7 +146,7 @@
       <!-- end of card section -->
 
     <!-- counter section -->
-    <section class="counterSection">
+    <section data-aos="fade-up" class="counterSection">
       <div class="head proj">
           <h1>PROJECTS</h1>
       </div>
@@ -194,7 +194,7 @@
     <!-- end of counter section -->
 
     <!-- card slider -->
-    <section class="cardSection">
+    <section data-aos="fade-up" class="cardSection">
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -260,7 +260,7 @@
     </section>
 
 
-    <section class="testimonials" id="testimonials">
+    <section data-aos="fade-up" class="testimonials" id="testimonials">
       <div class="container-fluid"><br>
         <div class="row testrow">
 
@@ -344,7 +344,7 @@
     </section>
 
     <!-- services area -->
-    <section class="serviceArea">
+    <section data-aos="fade-up" class="serviceArea">
         <?php
           include "areas.php";
         ?>

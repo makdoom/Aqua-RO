@@ -2,16 +2,16 @@
     include "header.php";
 ?>
 
-     <section class="product-detail">
+     <section   class="product-detail">
          <?php include "productBanner.php" ?>
-        <div class="products">
+        <div data-aos="fade-up" class="products">
             <p>Aqua fresh ro</p>
         </div>
-        <div class="container" id="pcontainer">
+        <div data-aos="fade-up" class="container" id="pcontainer">
             <!-- PRODUCT 1 -->
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="product1">
+                    <div data-aos="fade-right" class="product1">
                         <img src="../img/about/p1.jpg"  height="250px" width="350px">
                     </div>
                 </div>
@@ -86,9 +86,9 @@
                 </div>
             </div>
             <!-- PRODUCT 2 -->
-            <div class="row product2">
+            <div data-aos="fade-up" class="row product2">
                 <div class="col-md-4">
-                    <div class="product1">
+                    <div data-aos="fade-right" class="product1">
                         <img src="../img/about/p1.jpg" height="250px" width="350px">
                     </div>
                 </div>
@@ -163,9 +163,9 @@
                 </div>
             </div>
             <!-- PRODUCT 3 -->
-            <div class="row product2">
+            <div data-aos="fade-up" class="row product2">
                 <div class="col-md-4">
-                    <div class="product1">
+                    <div data-aos="fade-right" class="product1">
                         <img src="../img/about/p1.jpg" height="250px" width="350px">
                     </div>
                 </div>

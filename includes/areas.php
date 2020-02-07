@@ -1,4 +1,4 @@
-<div class="head"><h2>We provide services in following areas</h2></div>
+<div data-aos="fade-up" class="head"><h2>We provide services in following areas</h2></div>
       <div class="container service-sec">
         <div class="row">
           <!-- first Column -->

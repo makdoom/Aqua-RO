@@ -2,7 +2,7 @@
     include "header.php";
     include "productBanner.php";
 ?>
- <section class="product-detail">
+ <section data-aos="fade-up" class="product-detail">
         <div class="products">
             <p>kent ro</p>
         </div>
@@ -10,7 +10,7 @@
             <!-- PRODUCT 1 -->
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="product1">
+                    <div data-aos="flip-right" class="product1">
                         <img src="../img/about/p1.jpg"  height="250px" width="350px">
                     </div>
                 </div>
@@ -87,7 +87,7 @@
             <!-- PRODUCT 2 -->
             <div class="row product2">
                 <div class="col-md-4">
-                    <div class="product1">
+                    <div data-aos="flip-right" class="product1">
                         <img src="../img/about/p1.jpg" height="250px" width="350px">
                     </div>
                 </div>
@@ -164,7 +164,7 @@
             <!-- PRODUCT 3 -->
             <div class="row product2">
                 <div class="col-md-4">
-                    <div class="product1">
+                    <div data-aos="flip-right" class="product1">
                         <img src="../img/about/p1.jpg" height="250px" width="350px">
                     </div>
                 </div>
