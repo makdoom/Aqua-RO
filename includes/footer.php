@@ -1,5 +1,5 @@
 
-    <!-- footer -->
+    <!-- footer  -->
       <section data-aos="fade-up" id="footer" >
         <!-- Top Footer -->
         <div class="container footertop">
@@ -26,7 +26,7 @@
                 <li>Online Payment</li>
               </ul>
             </div>
-            <div class="col-sm-3 prod" ">
+            <div class="col-sm-2.5 prod " >
               <!-- Product area -->
               <h3>Products</h3>
               <ul>
@@ -39,19 +39,28 @@
               </ul>
 
             </div>
-            <div class="col-sm-4" >
+            <div class="col-sm-4.5" >
               <!-- Contact Area -->
                 <div class="contact-section">
-                  <h3>Get In Touch</h3>
+                 <form action="">
+                   <h3>join our newsletter</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat earum laborum, cumque sed quam nam dolorum vel sunt corporis accusamus.</p>
+                   <div class="email-box">
+                     <i class="fa fa-envelope"></i>
+                     <input class="tbox" type="email" placeholder="Enter Your Email">
+                     <button class="sbtn" type="submit" name="button">Subscribe</button>
+                   </div>
+                 </form>
+                  <!-- <h3>Get In Touch</h3>
                   <div class="borderline"></div>
-                  <form action="#" class="contact-form">
-                    <input class="contact-form-text" type="text" name="" placeholder="Full Name">
-                    <input class="contact-form-text" type="email" name="" placeholder="Email">
-                    <input class="contact-form-text" type="text" name="" placeholder="mobile">
-                    <textarea class="contact-form-text" placeholder="Message"></textarea>
-                    <input type="submit" value="Submit" class="contact-form-btn">
+                    <form action="#" class="contact-form">
+                      <input class="contact-form-text" type="text" name="" placeholder="Full Name">
+                      <input class="contact-form-text" type="email" name="" placeholder="Email">
+                      <input class="contact-form-text" type="text" name="" placeholder="mobile">
+                      <textarea class="contact-form-text" placeholder="Message"></textarea>
+                      <input type="submit" value="Submit" class="contact-form-btn">
+                    </form> -->
                   </div>
-              </div>
             </div>
 
           <!-- end of top footer -->
@@ -136,6 +145,14 @@
       duration: 2000,
     });
   </script>
-
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.sidebarToggle').click(function(){
+        $('.sidebar-window').toggleClass('active');
+        $('.sidebarToggle').toggleClass('active');
+      });
+    });
+  </script>
 </body>
 </html>

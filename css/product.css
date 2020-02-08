@@ -16,6 +16,7 @@
     overflow: hidden;
     position: relative;
     background-size: cover;  
+    background-attachment: fixed;
     
 }
 .bout-banner .banner{

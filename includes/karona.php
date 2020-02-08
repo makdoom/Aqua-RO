@@ -2,6 +2,9 @@
     include "header.php";
     include "productBanner.php";
 ?>
+<?php
+    include "sidebarWindow.php";
+?>
  <section data-aos="fade-up" class="product-detail">
         <div class="products">
             <p>karona ro</p>

@@ -2,6 +2,10 @@
 <?php
   include "header.php";
 ?>
+<?php
+  include "sidebarWindow.php";
+?>
+  
       <!-- Slider -->
       <section id="myslider" class="imgSlider">
         <div class="carousel slide " data-ride="carousel" data-interval="3000" data-pause="false" id="imgsldr">

@@ -3,6 +3,9 @@
 ?>
 <html>
     <body>
+        <?php
+            include "sidebarWindow.php";
+        ?>
         <section class="about-body">
             <div class="bout-banner">
                 <div class="banner"></div>

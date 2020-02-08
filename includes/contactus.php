@@ -2,6 +2,9 @@
     include "header.php";
 ?>
 
+<?php
+    include "sidebarWindow.php";
+?>
 <section  class="contactus">
     <div class="cont-banner">
         <div class="banner"></div>
