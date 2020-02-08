@@ -7,7 +7,7 @@
             include "sidebarWindow.php";
         ?>
         <section class="about-body">
-            <div class="bout-banner">
+            <div id="banimg" class="bout-banner">
                 <div class="banner"></div>
                 <h2>About Us</h2>
             </div>

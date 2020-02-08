@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="../css/aboutus.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="../css/contact.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="../css/product.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="../css/services.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="../css/washing.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="../css/aos.scss?v=<?php echo time(); ?>">
 
   <!-- Animation css -->
@@ -62,7 +62,7 @@
             </li>
             <li class="sub-menu"><a href="#">Services</a>
               <ul>
-                <li><a href="washingService.php">Washing Machine</a></li>
+                <li><a href="washing.php">Washing Machine</a></li>
                 <li><a href="tvService.php">TV Repairing</a></li>
                 <li><a href="aquaService.php">Aqua RO</a></li>
               </ul>

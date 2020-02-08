@@ -6,14 +6,17 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.product-detail{
+    width: 100%;
+}
 .bout-banner{
     width: 100%;
     height: 450px;
-    background: url(../img/about/product.jpg);
+    background: url(../img/about/s1.jpg);
     overflow: hidden;
     position: relative;
-    background-size: cover;
-     background-attachment: fixed;  
+    background-size: cover;  
+    background-attachment: fixed;
     
 }
 .bout-banner .banner{
@@ -23,7 +26,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
 }
 .bout-banner h2{
     position: absolute;
@@ -37,8 +40,7 @@
     letter-spacing: 2px;
     border-bottom: 5px solid #0099ff;
 }
-.serviceBody{
-    border: 1px solid red;
-    height: 90vh;
-    width: 100%;
+
+.mainBody{
+    height: 500px;
 }

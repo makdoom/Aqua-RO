@@ -136,7 +136,7 @@ header nav ul li a:hover{
     top: 50px;
     left: 0;
     background: #242323;
-    width: 200px;
+    width: 220px;
     display: block;
     transition: .4s;
     opacity: 0;
@@ -695,6 +695,7 @@ header nav ul li:hover ul{
     display: block;
     border-radius: 30px;
     font-weight: 300;
+    margin-bottom: 30px;
     background: linear-gradient(to right, #0984e3, #58a5f3,#0984e3);
     background-size: 200% auto;
     transition: .4s;

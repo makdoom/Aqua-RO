@@ -6,10 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bout-banner{
+#banimg{
     width: 100%;
-    height: 450px;
-    background: url(../img/about/banner.jpg);
+    height: 470px;
+    background: url(../img/about/makdoom1.jpg);
     overflow: hidden;
     position: relative;
     background-size: cover; 
