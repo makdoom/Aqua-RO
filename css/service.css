@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.service-banner{
+    width: 100%;
+    height: 450px;
+    background: url(../img/about/washing.jpg);
+    overflow: hidden;
+    position: relative;
+    background-size: cover;  
+    background-attachment: fixed;
+}
+.service-banner .sbanner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: rgba(0, 0, 0, 0.4);
+}
+.service-banner h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 4px;
+    letter-spacing: 2px;
+    border-bottom: 5px solid #0099ff;
+}
+.serviceContent{
+    position: relative;
+    height: 500px;
+    margin: 30px auto;
+}
+.serviceContent #title{
+    text-align: center;
+    font-weight: 500;
+}
+.washingBox{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    /* height: 400px; */
+    padding: 24px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background: #ffff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    transition: .4s;
+}
+.washingBox:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+.washingBox .imgbx{
+    width: 300px;
+    height: 220px;
+    flex: 0 0 250px;
+    margin: auto 0;
+}
+.washingBox .imgbx img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 220px;
+    transition: .5s;
+}
+.washingBox .imgbx:hover img{
+    transform: scale(1.05);
+}
+.washingBox .wcontent{
+    padding-left: 20px;
+}
+.washingBox .wcontent h2{
+    margin: 0;
+    padding-left: 0;
+    color: #ee5253;
+}
+.washingBox .wcontent p{
+    margin: 0;
+    padding: 15px 0 0;
+    text-align: justify;
+}
