@@ -386,7 +386,9 @@ header nav ul li:hover ul{
 .counterSection{
     /* margin:20px auto; */
     background:radial-gradient(#353740,#62656E );
-    min-height: 80vh;
+    /* min-height: 80vh; */
+    height: 600px;
+    /* margin-bottom: 20px; */
 }
 .proj h1{
     padding-top: 20px;
@@ -444,7 +446,8 @@ header nav ul li:hover ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    /* min-height: 80vh; */
+    height:600px;
     background: linear-gradient(#B066FE ,#63E2FF)
 }
 .cards{
@@ -689,11 +692,11 @@ header nav ul li:hover ul{
     padding-top: 20px;
 }
 .web {
-    margin-right: 7px;
+    margin-right: 8px;
     text-align: justify;
 }
 #add{
-    padding: 2px;
+    /* padding: 2px; */
 }
 .web .detail-btn{
     text-decoration: none;
@@ -716,31 +719,27 @@ header nav ul li:hover ul{
     background-position: right center;
     transform: translateY(-10px);
 }
-.svr{
-    /* border: 1px solid #fff; */
-}
-
 .srv ul li{
     margin-left: auto;
 }
 .prod{
     padding-right: 10px;
 }
-.prod ul{
-    margin-left: 30px;
+/* NewsLetter */
+.temp{
+    margin-left: 20px;
 }
 .contact-section{
-    width: 387px;
+    width: 350px;
     text-align: center;
-    margin-left: 10px;
     color: white;
+    
 }
 .contact-section h3{
     text-transform: uppercase;
 }
 .contact-section p{
     max-width: 500px;
-    margin: 15px auto;
     font-size: 15px;
     font-weight: 300;
 }
@@ -767,7 +766,7 @@ header nav ul li:hover ul{
 }
 .email-box:hover > .tbox,.tbox:focus{
     padding: 0 10px;
-    width:230px;
+    width:165px;
   
 }
 .sbtn{
@@ -776,8 +775,8 @@ header nav ul li:hover ul{
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
-
 }
+/* end of Newsletter */
 
 .bdr{
         border: 1px solid white;

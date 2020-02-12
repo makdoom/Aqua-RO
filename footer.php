@@ -4,13 +4,13 @@
         <!-- Top Footer -->
         <div class="container footertop">
           <div class="row">
-            <div class="col-sm-3 web">
+            <div class="col-sm-3 web ">
               <!-- webiste area -->
               <h3>RO Solution</h3>
               <p id="add">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid incidunt iusto at adipisci in obcaecati ducimus! Placeat recusandae sint ut, quos minima nam repellat dicta. Officiis nobis distincti</p>
               <a href="#introduction" class="detail-btn">Read More</a>
             </div>
-            <div class="col-sm-2 svr">
+            <div class="col-sm-2 svr ">
               <!-- services area -->
               <h3>Services</h3>
               <ul>
@@ -26,7 +26,7 @@
                 <li>Online Payment</li>
               </ul>
             </div>
-            <div class="col-sm-2.5 prod " >
+            <div class="col-sm-2 prod " >
               <!-- Product area -->
               <h3>Products</h3>
               <ul>
@@ -39,28 +39,19 @@
               </ul>
 
             </div>
-            <div class="col-sm-4.5" >
+            <div class="temp col-sm-4  temp" >
               <!-- Contact Area -->
                 <div class="contact-section">
-                 <form action="">
+                 <form action="newsBackend.php" method="POST">
                    <h3>join our newsletter</h3>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat earum laborum, cumque sed quam nam dolorum vel sunt corporis accusamus.</p>
                    <div class="email-box">
                      <i class="fa fa-envelope"></i>
-                     <input class="tbox" type="email" placeholder="Enter Your Email">
+                     <input class="tbox" name="email" type="email" placeholder="Enter Your Email">
                      <button class="sbtn" type="submit" name="button">Subscribe</button>
                    </div>
                  </form>
-                  <!-- <h3>Get In Touch</h3>
-                  <div class="borderline"></div>
-                    <form action="#" class="contact-form">
-                      <input class="contact-form-text" type="text" name="" placeholder="Full Name">
-                      <input class="contact-form-text" type="email" name="" placeholder="Email">
-                      <input class="contact-form-text" type="text" name="" placeholder="mobile">
-                      <textarea class="contact-form-text" placeholder="Message"></textarea>
-                      <input type="submit" value="Submit" class="contact-form-btn">
-                    </form> -->
-                  </div>
+                </div>
             </div>
 
           <!-- end of top footer -->

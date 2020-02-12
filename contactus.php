@@ -16,23 +16,23 @@
             <h2>Contact Us</h2>
             <form action="backend.php" method="POST">
                 <div class="input-field">
-                    <input type="text" required="required">
+                    <input type="text" name="name" required="required">
                     <label for="">Full Name</label>
                 </div>
                 <div class="input-field">
-                    <input type="email" required="required">
+                    <input type="email" name="email" required="required">
                     <label for="">Email</label>
                 </div>
-                <div class="input-field">
+                <!-- <div class="input-field">
                     <input type="text" required="required" >
                     <label for="">Subject</label>
-                </div>
+                </div> -->
                 <div class="input-field">
-                    <input type="tel" required="required" >
+                    <input type="tel" name="mobile" required="required" >
                     <label for="">Mobile</label>
                 </div>
                 <div class="input-field">
-                    <textarea row=3 required="required"></textarea>
+                    <textarea row=3 name="message" required="required"></textarea>
                     <label for="">Message</label>
                 </div>
                 <input type="submit" value="Submit" name="submit" class="sbtn">
